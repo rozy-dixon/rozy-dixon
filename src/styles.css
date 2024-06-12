@@ -1,0 +1,85 @@
+/* ;^) */
+/* ---------------------------------------------------------------------------------- FONT FACES */
+
+/* URBANIST */
+@font-face {
+    font-family: urbanist;
+    src: url(./fonts/Urbanist/Urbanist-VariableFont_wght.ttf);
+}
+
+/* -------------------------------------------------------------------------------------- BASICS */
+
+:root {
+    --primary: #000;
+    --secondary: #fff;
+    --tertiary: rgb(99, 97, 89);
+}
+
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+h1 {
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 21px;
+    padding: 20px 0px 5px 0px;
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 5px 0px;
+}
+
+li {
+    font-size: 14px;
+    text-align: justify;
+}
+
+ol {
+    padding: 5px 0px;
+    list-style-position: inside;
+}
+
+img {
+    /* src = https://chatgpt.com/share/842e1e88-4775-4345-a24a-c90b493367e2 */
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border: 1px solid var(--primary);
+}
+
+figcaption {
+    display: block;
+    margin: auto;
+    width: 550px;
+    padding: 5px 0px 15px 0px;
+    font-size: 12px;
+    font-style: italic;
+    color: var(--tertiary);
+}
+
+.centered {
+    margin: auto;
+    max-width: 600px;
+}
+
+.quote {
+    margin: auto;
+    max-width: 550px;
+    font-size: 12px;
+    padding: 15px 0px;
+}
